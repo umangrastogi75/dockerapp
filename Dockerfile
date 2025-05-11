@@ -5,6 +5,6 @@ WORKDIR /myapp
 COPY . .
 
 RUN npm install
-EXPOSE 2000
+EXPOSE 2001
 
 CMD ["npm","start"]
